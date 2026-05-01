@@ -25,7 +25,7 @@ export default function Footer() {
           <h4>Contact</h4>
           <p>
             (210) 982-9104<br />
-            email@email.com<br />
+            jnjunmatched@gmail.com<br />
             San Antonio and surrounding areas
           </p>
         </div>
