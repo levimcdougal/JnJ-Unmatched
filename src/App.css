@@ -1104,36 +1104,70 @@
 
 /* ─── Responsive ─────────────────────────────────────────── */
 @media (max-width: 900px) {
-  .home-hero { flex-direction: column; text-align: center; }
+  .home-hero { flex-direction: column; text-align: center; padding: 60px 5%; gap: 32px; min-height: auto; }
+  .hero-content { padding-left: 0; margin-top: 0; }
+  .hero-symbol { margin-right: 0; }
+  .hero-stats { display: none; }
   .hero-logo-img { max-width: 260px; }
   .hero-actions { justify-content: center; }
   .hero-content h1 { font-size: 2.6rem; }
   .why-grid, .services-preview-grid, .services-preview-grid--3 { grid-template-columns: 1fr 1fr; }
   .contact-layout { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-col--links { margin-left: 0; }
+  .contact-row-2 { grid-template-columns: 1fr; }
+  .faq-grid { grid-template-columns: 1fr; }
+  .contact-steps { flex-direction: column; align-items: center; }
+  .contact-step { padding: 0 16px; }
+  .contact-step-divider { width: 2px; height: 32px; margin: 0 auto; }
+  .contact-how { padding: 40px 28px; }
+  .contact-direct-card { padding: 32px 24px; }
 }
 
 @media (max-width: 640px) {
+  .navbar { height: 72px; }
+  .navbar-logo-img { height: 80px; }
   .navbar-links { display: none; }
   .navbar-hamburger { display: flex; }
   .navbar-links.open {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 72px;
     left: 0;
     right: 0;
     background: #ffffff;
     padding: 16px 5%;
     border-top: 1px solid #e8e8e8;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
     gap: 4px;
+    z-index: 99;
   }
-  .home-hero { padding: 60px 5%; min-height: auto; }
-  .hero-content h1 { font-size: 2rem; }
+  .home-hero { padding: 48px 5%; }
+  .hero-content h1 { font-size: 1.9rem; }
+  .hero-content p { font-size: 1rem; }
   .why-grid, .services-preview-grid, .services-preview-grid--3 { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 28px; }
-  .page-hero h1 { font-size: 2rem; }
+  .footer-col--links { margin-left: 0; }
+  .page-hero { padding: 56px 5%; }
+  .page-hero h1 { font-size: 1.9rem; }
+  .page-content { padding: 48px 5%; }
+  .section-header h2 { font-size: 1.8rem; }
   .contact-form-wrap { padding: 24px 20px; }
+  .contact-trio { flex-direction: column; padding: 32px 5%; }
+  .contact-trio-item { width: 100%; padding: 20px 24px; }
+  .contact-trio-divider { width: 80%; height: 1px; margin: 0 auto; }
+  .contact-how { padding: 32px 20px; margin-top: 48px; }
+  .contact-faq { margin-top: 48px; }
+  .faq-grid { grid-template-columns: 1fr; }
+  .contact-row-2 { grid-template-columns: 1fr; }
+  .contact-direct-card { padding: 24px 20px; }
+  .contact-steps { flex-direction: column; align-items: center; }
+  .contact-step-divider { width: 2px; height: 32px; margin: 0 auto; }
+  .cta-quick-links { flex-direction: column; gap: 16px; align-items: center; }
+  .why-section, .services-preview { padding: 56px 5%; }
+  .cta-banner { padding: 56px 5%; }
+  .cta-banner h2 { font-size: 1.7rem; }
 }

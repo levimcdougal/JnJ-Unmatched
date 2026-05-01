@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Contact</h4>
           <p>
-            (123) 456-7890<br />
+            (210) 982-9104<br />
             email@email.com<br />
             San Antonio and surrounding areas
           </p>
