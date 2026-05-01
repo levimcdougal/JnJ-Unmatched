@@ -16,10 +16,10 @@ export default function Contact() {
 
         {/* Contact Cards */}
         <div className="contact-trio">
-          <a href="tel:1234567890" className="contact-trio-item">
+          <a href="tel:2109829104" className="contact-trio-item">
             <div className="contact-trio-icon"><img src={phoneImg} alt="Call" /></div>
             <span className="contact-trio-label">Call Us</span>
-            <span className="contact-trio-value">(123) 456-7890</span>
+            <span className="contact-trio-value">(210) 982-9104</span>
           </a>
           <div className="contact-trio-divider" />
           <a href="mailto:email@email.com" className="contact-trio-item">
@@ -28,10 +28,10 @@ export default function Contact() {
             <span className="contact-trio-value">email@email.com</span>
           </a>
           <div className="contact-trio-divider" />
-          <a href="sms:1234567890" className="contact-trio-item">
+          <a href="sms:2109829104" className="contact-trio-item">
             <div className="contact-trio-icon"><img src={textImg} alt="Text" /></div>
             <span className="contact-trio-label">Text Us</span>
-            <span className="contact-trio-value">(123) 456-7890</span>
+            <span className="contact-trio-value">(210) 982-9104</span>
           </a>
         </div>
 
