@@ -1136,6 +1136,7 @@
     top: 72px;
     left: 0;
     right: 0;
+    transform: none;
     background: #ffffff;
     padding: 16px 5%;
     border-top: 1px solid #e8e8e8;
@@ -1165,7 +1166,7 @@
   .contact-row-2 { grid-template-columns: 1fr; }
   .contact-direct-card { padding: 24px 20px; }
   .contact-steps { flex-direction: column; align-items: center; }
-  .contact-step-divider { width: 2px; height: 32px; margin: 0 auto; }
+  .contact-step-divider { display: none; }
   .cta-quick-links { flex-direction: column; gap: 16px; align-items: center; }
   .why-section, .services-preview { padding: 56px 5%; }
   .cta-banner { padding: 56px 5%; }
