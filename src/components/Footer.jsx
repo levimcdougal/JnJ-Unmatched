@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Contact</h4>
           <p>
-            (210) 982-9104<br />
+            (210) 502-9134<br />
             jnjunmatched@gmail.com<br />
             San Antonio and surrounding areas
           </p>
